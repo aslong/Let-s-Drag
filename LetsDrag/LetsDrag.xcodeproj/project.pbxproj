@@ -1,0 +1,577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* LetsDragAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* LetsDragAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		282CCBFE0DB6C98000C4EA27 /* MyCarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 282CCBFD0DB6C98000C4EA27 /* MyCarView.xib */; };
+		288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765070DF74369002DB57D /* CoreGraphics.framework */; };
+		28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD73870D9D96C1002E5188 /* MainWindow.xib */; };
+		4917AF030F9E644E002CA939 /* MyCarSummaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4917AF020F9E644E002CA939 /* MyCarSummaryViewController.m */; };
+		4917AF050F9E6465002CA939 /* MyCarSummaryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4917AF040F9E6465002CA939 /* MyCarSummaryView.xib */; };
+		4917B10D0F9E7F08002CA939 /* RaceResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4917B10C0F9E7F08002CA939 /* RaceResultsViewController.m */; };
+		4917B10F0F9E7F2A002CA939 /* RaceResultsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4917B10E0F9E7F2A002CA939 /* RaceResultsView.xib */; };
+		494BB5690FD9A3B400F1BA02 /* RequestCarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 494BB5680FD9A3B400F1BA02 /* RequestCarViewController.xib */; };
+		494BB5700FD9A44E00F1BA02 /* RequestCarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 494BB56F0FD9A44E00F1BA02 /* RequestCarViewController.m */; };
+		494BB5750FD9AA6900F1BA02 /* RequestCarButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 494BB5740FD9AA6900F1BA02 /* RequestCarButton.png */; };
+		49856C480FBBD9E500C8AF1B /* drag.png in Resources */ = {isa = PBXBuildFile; fileRef = 49856C470FBBD9E500C8AF1B /* drag.png */; };
+		498939340F9CF34A00CB5307 /* CarMake.m in Sources */ = {isa = PBXBuildFile; fileRef = 498939330F9CF34A00CB5307 /* CarMake.m */; };
+		498939CA0F9D045B00CB5307 /* OpponentRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 498939C90F9D045B00CB5307 /* OpponentRootViewController.m */; };
+		498939EC0F9D04F200CB5307 /* OpponentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 498939EB0F9D04F200CB5307 /* OpponentViewController.xib */; };
+		49C645800FB0E1C600307933 /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C6457F0FB0E1C600307933 /* XPathQuery.m */; };
+		49C6498C0FB3698700307933 /* UpdateUsersCars.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C6498B0FB3698700307933 /* UpdateUsersCars.m */; };
+		49C649920FB36BEE00307933 /* MyFullScreenProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C649910FB36BEE00307933 /* MyFullScreenProgressView.m */; };
+		49C649D70FB3711500307933 /* FullScreenProgressView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49C649D60FB3711500307933 /* FullScreenProgressView.xib */; };
+		49C64BE80FB604DB00307933 /* LetsDragTableViewCells.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C64BE70FB604DB00307933 /* LetsDragTableViewCells.m */; };
+		49C64C1E0FB6089000307933 /* checks.png in Resources */ = {isa = PBXBuildFile; fileRef = 49C64C1D0FB6089000307933 /* checks.png */; };
+		49C64CB30FB6569400307933 /* win.png in Resources */ = {isa = PBXBuildFile; fileRef = 49C64CB20FB6569400307933 /* win.png */; };
+		49C64CC00FB657B400307933 /* tie.png in Resources */ = {isa = PBXBuildFile; fileRef = 49C64CBF0FB657B400307933 /* tie.png */; };
+		49C64CC20FB657E900307933 /* lose.png in Resources */ = {isa = PBXBuildFile; fileRef = 49C64CC10FB657E900307933 /* lose.png */; };
+		49C64CEA0FB6930100307933 /* Chevron.png in Resources */ = {isa = PBXBuildFile; fileRef = 49C64CE90FB6930100307933 /* Chevron.png */; };
+		49C64CFB0FB693D400307933 /* DragButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 49C64CFA0FB693D400307933 /* DragButton.png */; };
+		49C64CFD0FB694BC00307933 /* DragButtonSmall.png in Resources */ = {isa = PBXBuildFile; fileRef = 49C64CFC0FB694BC00307933 /* DragButtonSmall.png */; };
+		49C64D040FB6964400307933 /* AcceptButtonSmall.png in Resources */ = {isa = PBXBuildFile; fileRef = 49C64D010FB6964400307933 /* AcceptButtonSmall.png */; };
+		49C64D050FB6964400307933 /* ChooseYourCarButtonSmall.png in Resources */ = {isa = PBXBuildFile; fileRef = 49C64D020FB6964400307933 /* ChooseYourCarButtonSmall.png */; };
+		49C64D060FB6964400307933 /* ChangeCarButtonSmall.png in Resources */ = {isa = PBXBuildFile; fileRef = 49C64D030FB6964400307933 /* ChangeCarButtonSmall.png */; };
+		49C82DA80F9CF04A0051BE96 /* OpponentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C82DA70F9CF04A0051BE96 /* OpponentViewController.m */; };
+		49C82DAC0F9CF0D10051BE96 /* MyCarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C82DAB0F9CF0D10051BE96 /* MyCarViewController.m */; };
+		49C82EA50F9CF2150051BE96 /* CarListingsMakeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C82EA40F9CF2150051BE96 /* CarListingsMakeTableViewController.m */; };
+		49CF5FBD0F9D536E00563880 /* OpponnentModelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CF5FBC0F9D536E00563880 /* OpponnentModelViewController.m */; };
+		49CF5FC00F9D54DC00563880 /* CarListingsModelTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CF5FBF0F9D54DC00563880 /* CarListingsModelTableViewController.m */; };
+		49CF5FC30F9D557400563880 /* CarModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CF5FC20F9D557400563880 /* CarModel.m */; };
+		49CF60640F9D5B8500563880 /* OpponnentYearViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CF60630F9D5B8500563880 /* OpponnentYearViewController.m */; };
+		49CF60670F9D5BB000563880 /* CarYear.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CF60660F9D5BB000563880 /* CarYear.m */; };
+		49CF606A0F9D5C9D00563880 /* CarListingsYearTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CF60690F9D5C9D00563880 /* CarListingsYearTableViewController.m */; };
+		49CF60F10F9D62FB00563880 /* OpponnentCarSummaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CF60F00F9D62FB00563880 /* OpponnentCarSummaryViewController.m */; };
+		49CF60F30F9D64C400563880 /* CarSummaryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49CF60F20F9D64C400563880 /* CarSummaryView.xib */; };
+		49E58F2A0FDB46BA002D2B6F /* LoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E58F280FDB46BA002D2B6F /* LoadingView.m */; };
+		49E58F610FDB4EDB002D2B6F /* plusCarTab.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 49E58F600FDB4EDB002D2B6F /* plusCarTab.tiff */; };
+		49E706C60FB7653400C58F09 /* Cars.plst in Resources */ = {isa = PBXBuildFile; fileRef = 49E706C50FB7653400C58F09 /* Cars.plst */; };
+		49EA08B00FA7DDC300B07DB8 /* CarData.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EA08AF0FA7DDC300B07DB8 /* CarData.m */; };
+		49EEFAAC0FB77BC40025C3EF /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 49EEFAAB0FB77BC40025C3EF /* Default.png */; };
+		49EEFB460FB7929E0025C3EF /* MyCar.png in Resources */ = {isa = PBXBuildFile; fileRef = 49EEFB450FB7929E0025C3EF /* MyCar.png */; };
+		49EEFB710FB797F60025C3EF /* MyCarTab.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 49EEFB700FB797F60025C3EF /* MyCarTab.tiff */; };
+		49EEFBAB0FB79C6D0025C3EF /* OtherCarTab.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 49EEFBAA0FB79C6D0025C3EF /* OtherCarTab.tiff */; };
+		49EEFC120FB7B0C70025C3EF /* boo.wav in Resources */ = {isa = PBXBuildFile; fileRef = 49EEFC0F0FB7B0C70025C3EF /* boo.wav */; };
+		49EEFC130FB7B0C70025C3EF /* aww.wav in Resources */ = {isa = PBXBuildFile; fileRef = 49EEFC100FB7B0C70025C3EF /* aww.wav */; };
+		49EEFC140FB7B0C70025C3EF /* cheering.wav in Resources */ = {isa = PBXBuildFile; fileRef = 49EEFC110FB7B0C70025C3EF /* cheering.wav */; };
+		49EEFC3B0FB7B3190025C3EF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49EEFC3A0FB7B3190025C3EF /* AVFoundation.framework */; };
+		49EEFC7F0FB7B7670025C3EF /* burnout.wav in Resources */ = {isa = PBXBuildFile; fileRef = 49EEFC7E0FB7B7670025C3EF /* burnout.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* LetsDragAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LetsDragAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* LetsDragAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LetsDragAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* LetsDrag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LetsDrag.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		282CCBFD0DB6C98000C4EA27 /* MyCarView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCarView.xib; sourceTree = "<group>"; };
+		288765070DF74369002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28A0AB4B0D9B1048005BE974 /* LetsDrag_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LetsDrag_Prefix.pch; sourceTree = "<group>"; };
+		28AD73870D9D96C1002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4917AF010F9E644E002CA939 /* MyCarSummaryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCarSummaryViewController.h; sourceTree = "<group>"; };
+		4917AF020F9E644E002CA939 /* MyCarSummaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCarSummaryViewController.m; sourceTree = "<group>"; };
+		4917AF040F9E6465002CA939 /* MyCarSummaryView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCarSummaryView.xib; sourceTree = "<group>"; };
+		4917B10B0F9E7F08002CA939 /* RaceResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RaceResultsViewController.h; sourceTree = "<group>"; };
+		4917B10C0F9E7F08002CA939 /* RaceResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RaceResultsViewController.m; sourceTree = "<group>"; };
+		4917B10E0F9E7F2A002CA939 /* RaceResultsView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RaceResultsView.xib; sourceTree = "<group>"; };
+		494BB5680FD9A3B400F1BA02 /* RequestCarViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RequestCarViewController.xib; sourceTree = "<group>"; };
+		494BB56E0FD9A44E00F1BA02 /* RequestCarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestCarViewController.h; sourceTree = "<group>"; };
+		494BB56F0FD9A44E00F1BA02 /* RequestCarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestCarViewController.m; sourceTree = "<group>"; };
+		494BB5740FD9AA6900F1BA02 /* RequestCarButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RequestCarButton.png; sourceTree = "<group>"; };
+		49856C470FBBD9E500C8AF1B /* drag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drag.png; sourceTree = "<group>"; };
+		498939320F9CF34A00CB5307 /* CarMake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarMake.h; sourceTree = "<group>"; };
+		498939330F9CF34A00CB5307 /* CarMake.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarMake.m; sourceTree = "<group>"; };
+		498939C80F9D045B00CB5307 /* OpponentRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpponentRootViewController.h; sourceTree = "<group>"; };
+		498939C90F9D045B00CB5307 /* OpponentRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpponentRootViewController.m; sourceTree = "<group>"; };
+		498939EB0F9D04F200CB5307 /* OpponentViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OpponentViewController.xib; sourceTree = "<group>"; };
+		49C6457E0FB0E1C600307933 /* XPathQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPathQuery.h; sourceTree = "<group>"; };
+		49C6457F0FB0E1C600307933 /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPathQuery.m; sourceTree = "<group>"; };
+		49C6498A0FB3698700307933 /* UpdateUsersCars.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpdateUsersCars.h; sourceTree = "<group>"; };
+		49C6498B0FB3698700307933 /* UpdateUsersCars.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UpdateUsersCars.m; sourceTree = "<group>"; };
+		49C649900FB36BEE00307933 /* MyFullScreenProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyFullScreenProgressView.h; sourceTree = "<group>"; };
+		49C649910FB36BEE00307933 /* MyFullScreenProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyFullScreenProgressView.m; sourceTree = "<group>"; };
+		49C649D60FB3711500307933 /* FullScreenProgressView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FullScreenProgressView.xib; sourceTree = "<group>"; };
+		49C64BE60FB604DB00307933 /* LetsDragTableViewCells.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LetsDragTableViewCells.h; sourceTree = "<group>"; };
+		49C64BE70FB604DB00307933 /* LetsDragTableViewCells.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LetsDragTableViewCells.m; sourceTree = "<group>"; };
+		49C64C1D0FB6089000307933 /* checks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checks.png; sourceTree = "<group>"; };
+		49C64CB20FB6569400307933 /* win.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = win.png; sourceTree = "<group>"; };
+		49C64CBF0FB657B400307933 /* tie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tie.png; sourceTree = "<group>"; };
+		49C64CC10FB657E900307933 /* lose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lose.png; sourceTree = "<group>"; };
+		49C64CE90FB6930100307933 /* Chevron.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chevron.png; sourceTree = "<group>"; };
+		49C64CFA0FB693D400307933 /* DragButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DragButton.png; sourceTree = "<group>"; };
+		49C64CFC0FB694BC00307933 /* DragButtonSmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DragButtonSmall.png; sourceTree = "<group>"; };
+		49C64D010FB6964400307933 /* AcceptButtonSmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AcceptButtonSmall.png; sourceTree = "<group>"; };
+		49C64D020FB6964400307933 /* ChooseYourCarButtonSmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ChooseYourCarButtonSmall.png; sourceTree = "<group>"; };
+		49C64D030FB6964400307933 /* ChangeCarButtonSmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ChangeCarButtonSmall.png; sourceTree = "<group>"; };
+		49C82DA60F9CF04A0051BE96 /* OpponentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpponentViewController.h; sourceTree = "<group>"; };
+		49C82DA70F9CF04A0051BE96 /* OpponentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpponentViewController.m; sourceTree = "<group>"; };
+		49C82DAA0F9CF0D10051BE96 /* MyCarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCarViewController.h; sourceTree = "<group>"; };
+		49C82DAB0F9CF0D10051BE96 /* MyCarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCarViewController.m; sourceTree = "<group>"; };
+		49C82EA30F9CF2150051BE96 /* CarListingsMakeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarListingsMakeTableViewController.h; sourceTree = "<group>"; };
+		49C82EA40F9CF2150051BE96 /* CarListingsMakeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarListingsMakeTableViewController.m; sourceTree = "<group>"; };
+		49CF5FBB0F9D536E00563880 /* OpponnentModelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpponnentModelViewController.h; sourceTree = "<group>"; };
+		49CF5FBC0F9D536E00563880 /* OpponnentModelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpponnentModelViewController.m; sourceTree = "<group>"; };
+		49CF5FBE0F9D54DC00563880 /* CarListingsModelTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarListingsModelTableViewController.h; sourceTree = "<group>"; };
+		49CF5FBF0F9D54DC00563880 /* CarListingsModelTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarListingsModelTableViewController.m; sourceTree = "<group>"; };
+		49CF5FC10F9D557400563880 /* CarModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarModel.h; sourceTree = "<group>"; };
+		49CF5FC20F9D557400563880 /* CarModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarModel.m; sourceTree = "<group>"; };
+		49CF60620F9D5B8500563880 /* OpponnentYearViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpponnentYearViewController.h; sourceTree = "<group>"; };
+		49CF60630F9D5B8500563880 /* OpponnentYearViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpponnentYearViewController.m; sourceTree = "<group>"; };
+		49CF60650F9D5BB000563880 /* CarYear.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarYear.h; sourceTree = "<group>"; };
+		49CF60660F9D5BB000563880 /* CarYear.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarYear.m; sourceTree = "<group>"; };
+		49CF60680F9D5C9D00563880 /* CarListingsYearTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarListingsYearTableViewController.h; sourceTree = "<group>"; };
+		49CF60690F9D5C9D00563880 /* CarListingsYearTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarListingsYearTableViewController.m; sourceTree = "<group>"; };
+		49CF60EF0F9D62FB00563880 /* OpponnentCarSummaryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpponnentCarSummaryViewController.h; sourceTree = "<group>"; };
+		49CF60F00F9D62FB00563880 /* OpponnentCarSummaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpponnentCarSummaryViewController.m; sourceTree = "<group>"; };
+		49CF60F20F9D64C400563880 /* CarSummaryView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarSummaryView.xib; sourceTree = "<group>"; };
+		49E58F280FDB46BA002D2B6F /* LoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingView.m; sourceTree = "<group>"; };
+		49E58F290FDB46BA002D2B6F /* LoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingView.h; sourceTree = "<group>"; };
+		49E58F600FDB4EDB002D2B6F /* plusCarTab.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = plusCarTab.tiff; sourceTree = "<group>"; };
+		49E706C50FB7653400C58F09 /* Cars.plst */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Cars.plst; sourceTree = "<group>"; };
+		49EA08AE0FA7DDC300B07DB8 /* CarData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarData.h; sourceTree = "<group>"; };
+		49EA08AF0FA7DDC300B07DB8 /* CarData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarData.m; sourceTree = "<group>"; };
+		49EEFAAB0FB77BC40025C3EF /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		49EEFB450FB7929E0025C3EF /* MyCar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MyCar.png; sourceTree = "<group>"; };
+		49EEFB700FB797F60025C3EF /* MyCarTab.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = MyCarTab.tiff; sourceTree = "<group>"; };
+		49EEFBAA0FB79C6D0025C3EF /* OtherCarTab.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = OtherCarTab.tiff; sourceTree = "<group>"; };
+		49EEFC0F0FB7B0C70025C3EF /* boo.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = boo.wav; sourceTree = "<group>"; };
+		49EEFC100FB7B0C70025C3EF /* aww.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = aww.wav; sourceTree = "<group>"; };
+		49EEFC110FB7B0C70025C3EF /* cheering.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = cheering.wav; sourceTree = "<group>"; };
+		49EEFC3A0FB7B3190025C3EF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		49EEFC7E0FB7B7670025C3EF /* burnout.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = burnout.wav; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */,
+				49EEFC3B0FB7B3190025C3EF /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				494BB56D0FD9A42B00F1BA02 /* Misc */,
+				494BB56C0FD9A40700F1BA02 /* UpdatingCar */,
+				494BB56B0FD9A3F700F1BA02 /* Request Car */,
+				49CF606B0F9D5CA100563880 /* CarListings TableViews */,
+				49893A5E0F9D088300CB5307 /* Data Classes */,
+				49893A5D0F9D087200CB5307 /* MyCar Stuff */,
+				49893A5B0F9D085B00CB5307 /* Opponent Stuff */,
+				1D3623240D0F684500981E51 /* LetsDragAppDelegate.h */,
+				1D3623250D0F684500981E51 /* LetsDragAppDelegate.m */,
+				49C64BE60FB604DB00307933 /* LetsDragTableViewCells.h */,
+				49C64BE70FB604DB00307933 /* LetsDragTableViewCells.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* LetsDrag.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* LetsDrag */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = LetsDrag;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				28A0AB4B0D9B1048005BE974 /* LetsDrag_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				49E58F600FDB4EDB002D2B6F /* plusCarTab.tiff */,
+				494BB5740FD9AA6900F1BA02 /* RequestCarButton.png */,
+				49856C470FBBD9E500C8AF1B /* drag.png */,
+				49EEFC7E0FB7B7670025C3EF /* burnout.wav */,
+				49EEFC0F0FB7B0C70025C3EF /* boo.wav */,
+				49EEFC100FB7B0C70025C3EF /* aww.wav */,
+				49EEFC110FB7B0C70025C3EF /* cheering.wav */,
+				49EEFBAA0FB79C6D0025C3EF /* OtherCarTab.tiff */,
+				49EEFB700FB797F60025C3EF /* MyCarTab.tiff */,
+				49EEFB450FB7929E0025C3EF /* MyCar.png */,
+				49EEFAAB0FB77BC40025C3EF /* Default.png */,
+				49E706C50FB7653400C58F09 /* Cars.plst */,
+				49C64D010FB6964400307933 /* AcceptButtonSmall.png */,
+				49C64D020FB6964400307933 /* ChooseYourCarButtonSmall.png */,
+				49C64D030FB6964400307933 /* ChangeCarButtonSmall.png */,
+				49C64CFC0FB694BC00307933 /* DragButtonSmall.png */,
+				49C64CFA0FB693D400307933 /* DragButton.png */,
+				49C64CE90FB6930100307933 /* Chevron.png */,
+				49C64CC10FB657E900307933 /* lose.png */,
+				49C64CBF0FB657B400307933 /* tie.png */,
+				49C64CB20FB6569400307933 /* win.png */,
+				49C64C1D0FB6089000307933 /* checks.png */,
+				282CCBFD0DB6C98000C4EA27 /* MyCarView.xib */,
+				28AD73870D9D96C1002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				498939EB0F9D04F200CB5307 /* OpponentViewController.xib */,
+				49CF60F20F9D64C400563880 /* CarSummaryView.xib */,
+				4917AF040F9E6465002CA939 /* MyCarSummaryView.xib */,
+				4917B10E0F9E7F2A002CA939 /* RaceResultsView.xib */,
+				49C649D60FB3711500307933 /* FullScreenProgressView.xib */,
+				494BB5680FD9A3B400F1BA02 /* RequestCarViewController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				49EEFC3A0FB7B3190025C3EF /* AVFoundation.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765070DF74369002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		494BB56B0FD9A3F700F1BA02 /* Request Car */ = {
+			isa = PBXGroup;
+			children = (
+				494BB56E0FD9A44E00F1BA02 /* RequestCarViewController.h */,
+				494BB56F0FD9A44E00F1BA02 /* RequestCarViewController.m */,
+			);
+			name = "Request Car";
+			sourceTree = "<group>";
+		};
+		494BB56C0FD9A40700F1BA02 /* UpdatingCar */ = {
+			isa = PBXGroup;
+			children = (
+				49C6498A0FB3698700307933 /* UpdateUsersCars.h */,
+				49C6498B0FB3698700307933 /* UpdateUsersCars.m */,
+				49C649900FB36BEE00307933 /* MyFullScreenProgressView.h */,
+				49C649910FB36BEE00307933 /* MyFullScreenProgressView.m */,
+			);
+			name = UpdatingCar;
+			sourceTree = "<group>";
+		};
+		494BB56D0FD9A42B00F1BA02 /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				49E58F280FDB46BA002D2B6F /* LoadingView.m */,
+				49E58F290FDB46BA002D2B6F /* LoadingView.h */,
+				49C6457E0FB0E1C600307933 /* XPathQuery.h */,
+				49C6457F0FB0E1C600307933 /* XPathQuery.m */,
+			);
+			name = Misc;
+			sourceTree = "<group>";
+		};
+		49893A5B0F9D085B00CB5307 /* Opponent Stuff */ = {
+			isa = PBXGroup;
+			children = (
+				49C82DA60F9CF04A0051BE96 /* OpponentViewController.h */,
+				49C82DA70F9CF04A0051BE96 /* OpponentViewController.m */,
+				498939C80F9D045B00CB5307 /* OpponentRootViewController.h */,
+				498939C90F9D045B00CB5307 /* OpponentRootViewController.m */,
+				49CF5FBB0F9D536E00563880 /* OpponnentModelViewController.h */,
+				49CF5FBC0F9D536E00563880 /* OpponnentModelViewController.m */,
+				49CF60620F9D5B8500563880 /* OpponnentYearViewController.h */,
+				49CF60630F9D5B8500563880 /* OpponnentYearViewController.m */,
+				49CF60EF0F9D62FB00563880 /* OpponnentCarSummaryViewController.h */,
+				49CF60F00F9D62FB00563880 /* OpponnentCarSummaryViewController.m */,
+				4917B10B0F9E7F08002CA939 /* RaceResultsViewController.h */,
+				4917B10C0F9E7F08002CA939 /* RaceResultsViewController.m */,
+			);
+			name = "Opponent Stuff";
+			sourceTree = "<group>";
+		};
+		49893A5D0F9D087200CB5307 /* MyCar Stuff */ = {
+			isa = PBXGroup;
+			children = (
+				49C82DAA0F9CF0D10051BE96 /* MyCarViewController.h */,
+				49C82DAB0F9CF0D10051BE96 /* MyCarViewController.m */,
+				4917AF010F9E644E002CA939 /* MyCarSummaryViewController.h */,
+				4917AF020F9E644E002CA939 /* MyCarSummaryViewController.m */,
+			);
+			name = "MyCar Stuff";
+			sourceTree = "<group>";
+		};
+		49893A5E0F9D088300CB5307 /* Data Classes */ = {
+			isa = PBXGroup;
+			children = (
+				498939320F9CF34A00CB5307 /* CarMake.h */,
+				498939330F9CF34A00CB5307 /* CarMake.m */,
+				49CF5FC10F9D557400563880 /* CarModel.h */,
+				49CF5FC20F9D557400563880 /* CarModel.m */,
+				49CF60650F9D5BB000563880 /* CarYear.h */,
+				49CF60660F9D5BB000563880 /* CarYear.m */,
+				49EA08AE0FA7DDC300B07DB8 /* CarData.h */,
+				49EA08AF0FA7DDC300B07DB8 /* CarData.m */,
+			);
+			name = "Data Classes";
+			sourceTree = "<group>";
+		};
+		49CF606B0F9D5CA100563880 /* CarListings TableViews */ = {
+			isa = PBXGroup;
+			children = (
+				49C82EA30F9CF2150051BE96 /* CarListingsMakeTableViewController.h */,
+				49C82EA40F9CF2150051BE96 /* CarListingsMakeTableViewController.m */,
+				49CF5FBE0F9D54DC00563880 /* CarListingsModelTableViewController.h */,
+				49CF5FBF0F9D54DC00563880 /* CarListingsModelTableViewController.m */,
+				49CF60680F9D5C9D00563880 /* CarListingsYearTableViewController.h */,
+				49CF60690F9D5C9D00563880 /* CarListingsYearTableViewController.m */,
+			);
+			name = "CarListings TableViews";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* LetsDrag */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "LetsDrag" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LetsDrag;
+			productName = LetsDrag;
+			productReference = 1D6058910D05DD3D006BFB54 /* LetsDrag.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "LetsDrag" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* LetsDrag */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* LetsDrag */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */,
+				282CCBFE0DB6C98000C4EA27 /* MyCarView.xib in Resources */,
+				498939EC0F9D04F200CB5307 /* OpponentViewController.xib in Resources */,
+				49CF60F30F9D64C400563880 /* CarSummaryView.xib in Resources */,
+				4917AF050F9E6465002CA939 /* MyCarSummaryView.xib in Resources */,
+				4917B10F0F9E7F2A002CA939 /* RaceResultsView.xib in Resources */,
+				49C649D70FB3711500307933 /* FullScreenProgressView.xib in Resources */,
+				49C64C1E0FB6089000307933 /* checks.png in Resources */,
+				49C64CB30FB6569400307933 /* win.png in Resources */,
+				49C64CC00FB657B400307933 /* tie.png in Resources */,
+				49C64CC20FB657E900307933 /* lose.png in Resources */,
+				49C64CEA0FB6930100307933 /* Chevron.png in Resources */,
+				49C64CFB0FB693D400307933 /* DragButton.png in Resources */,
+				49C64CFD0FB694BC00307933 /* DragButtonSmall.png in Resources */,
+				49C64D040FB6964400307933 /* AcceptButtonSmall.png in Resources */,
+				49C64D050FB6964400307933 /* ChooseYourCarButtonSmall.png in Resources */,
+				49C64D060FB6964400307933 /* ChangeCarButtonSmall.png in Resources */,
+				49E706C60FB7653400C58F09 /* Cars.plst in Resources */,
+				49EEFAAC0FB77BC40025C3EF /* Default.png in Resources */,
+				49EEFB460FB7929E0025C3EF /* MyCar.png in Resources */,
+				49EEFB710FB797F60025C3EF /* MyCarTab.tiff in Resources */,
+				49EEFBAB0FB79C6D0025C3EF /* OtherCarTab.tiff in Resources */,
+				49EEFC120FB7B0C70025C3EF /* boo.wav in Resources */,
+				49EEFC130FB7B0C70025C3EF /* aww.wav in Resources */,
+				49EEFC140FB7B0C70025C3EF /* cheering.wav in Resources */,
+				49EEFC7F0FB7B7670025C3EF /* burnout.wav in Resources */,
+				49856C480FBBD9E500C8AF1B /* drag.png in Resources */,
+				494BB5690FD9A3B400F1BA02 /* RequestCarViewController.xib in Resources */,
+				494BB5750FD9AA6900F1BA02 /* RequestCarButton.png in Resources */,
+				49E58F610FDB4EDB002D2B6F /* plusCarTab.tiff in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* LetsDragAppDelegate.m in Sources */,
+				49C82DA80F9CF04A0051BE96 /* OpponentViewController.m in Sources */,
+				49C82DAC0F9CF0D10051BE96 /* MyCarViewController.m in Sources */,
+				49C82EA50F9CF2150051BE96 /* CarListingsMakeTableViewController.m in Sources */,
+				498939340F9CF34A00CB5307 /* CarMake.m in Sources */,
+				498939CA0F9D045B00CB5307 /* OpponentRootViewController.m in Sources */,
+				49CF5FBD0F9D536E00563880 /* OpponnentModelViewController.m in Sources */,
+				49CF5FC00F9D54DC00563880 /* CarListingsModelTableViewController.m in Sources */,
+				49CF5FC30F9D557400563880 /* CarModel.m in Sources */,
+				49CF60640F9D5B8500563880 /* OpponnentYearViewController.m in Sources */,
+				49CF60670F9D5BB000563880 /* CarYear.m in Sources */,
+				49CF606A0F9D5C9D00563880 /* CarListingsYearTableViewController.m in Sources */,
+				49CF60F10F9D62FB00563880 /* OpponnentCarSummaryViewController.m in Sources */,
+				4917AF030F9E644E002CA939 /* MyCarSummaryViewController.m in Sources */,
+				4917B10D0F9E7F08002CA939 /* RaceResultsViewController.m in Sources */,
+				49EA08B00FA7DDC300B07DB8 /* CarData.m in Sources */,
+				49C645800FB0E1C600307933 /* XPathQuery.m in Sources */,
+				49C6498C0FB3698700307933 /* UpdateUsersCars.m in Sources */,
+				49C649920FB36BEE00307933 /* MyFullScreenProgressView.m in Sources */,
+				49C64BE80FB604DB00307933 /* LetsDragTableViewCells.m in Sources */,
+				494BB5700FD9A44E00F1BA02 /* RequestCarViewController.m in Sources */,
+				49E58F2A0FDB46BA002D2B6F /* LoadingView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = LetsDrag_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = LetsDrag;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = LetsDrag_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = LetsDrag;
+			};
+			name = Release;
+		};
+		4979035E0FBBC6A90027BC78 /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Andrew Long";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS2.0.sdk/usr/include/libxml2/**";
+				OTHER_LDFLAGS = "-lxml2";
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "A84DF987-82A8-4903-9B9B-0489CB8AC3CF";
+				SDKROOT = iphoneos2.2;
+			};
+			name = AppStore;
+		};
+		4979035F0FBBC6A90027BC78 /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = LetsDrag_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = LetsDrag;
+			};
+			name = AppStore;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Andrew Long";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS2.0.sdk/usr/include/libxml2/**";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-lxml2";
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "E529A2CD-F8CB-4143-8C3B-54A325D33EDE";
+				SDKROOT = iphoneos2.2;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS2.0.sdk/usr/include/libxml2/**";
+				OTHER_LDFLAGS = "-lxml2";
+				PREBINDING = NO;
+				SDKROOT = iphoneos2.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "LetsDrag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				4979035F0FBBC6A90027BC78 /* AppStore */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "LetsDrag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				4979035E0FBBC6A90027BC78 /* AppStore */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

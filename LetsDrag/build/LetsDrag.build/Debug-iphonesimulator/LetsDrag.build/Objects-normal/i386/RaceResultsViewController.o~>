@@ -1,0 +1,7 @@
+/Users/andrew/Desktop/LetsDrag?/LetsDrag/Classes/RaceResultsViewController.m: In function '-[RaceResultsViewController calculateWinOrLose]':
+/Users/andrew/Desktop/LetsDrag?/LetsDrag/Classes/RaceResultsViewController.m:64: warning: unused variable 'myYear'
+/Users/andrew/Desktop/LetsDrag?/LetsDrag/Classes/RaceResultsViewController.m:63: warning: unused variable 'myModel'
+/Users/andrew/Desktop/LetsDrag?/LetsDrag/Classes/RaceResultsViewController.m:62: warning: unused variable 'myMake'
+/Users/andrew/Desktop/LetsDrag?/LetsDrag/Classes/RaceResultsViewController.m:58: warning: unused variable 'year'
+/Users/andrew/Desktop/LetsDrag?/LetsDrag/Classes/RaceResultsViewController.m:57: warning: unused variable 'model'
+/Users/andrew/Desktop/LetsDrag?/LetsDrag/Classes/RaceResultsViewController.m:56: warning: unused variable 'make'

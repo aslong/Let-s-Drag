@@ -1,0 +1,25 @@
+/Users/andrew/Desktop/LetsDrag?/LetsDrag/Classes/OpponnentCarSummaryViewController.m: In function '-[OpponnentCarSummaryViewController viewDidLoad]':
+/Users/andrew/Desktop/LetsDrag?/LetsDrag/Classes/OpponnentCarSummaryViewController.m:76: warning: 'OpponnentCarSummaryViewController' may not respond to '-downloadImage'
+/Users/andrew/Desktop/LetsDrag?/LetsDrag/Classes/OpponnentCarSummaryViewController.m:76: warning: (Messages without a matching method signature
+/Users/andrew/Desktop/LetsDrag?/LetsDrag/Classes/OpponnentCarSummaryViewController.m:76: warning: will be assumed to return 'id' and accept
+/Users/andrew/Desktop/LetsDrag?/LetsDrag/Classes/OpponnentCarSummaryViewController.m:76: warning: '...' as arguments.)
+/Users/andrew/Desktop/LetsDrag?/LetsDrag/Classes/OpponnentCarSummaryViewController.m:84: warning: no '-shouldDisplayRaceButton' method found
+/Users/andrew/Desktop/LetsDrag?/LetsDrag/Classes/OpponnentCarSummaryViewController.m: In function '-[OpponnentCarSummaryViewController acceptThisCar:]':
+/Users/andrew/Desktop/LetsDrag?/LetsDrag/Classes/OpponnentCarSummaryViewController.m:141: warning: no '-objectToCallWhenAcceptCar' method found
+/Users/andrew/Desktop/LetsDrag?/LetsDrag/Classes/OpponnentCarSummaryViewController.m:143: warning: no '-objectToCallWhenAcceptCar' method found
+/Users/andrew/Desktop/LetsDrag?/LetsDrag/Classes/OpponnentCarSummaryViewController.m:143: warning: no '-methodToCallWhenAcceptCar' method found
+/Users/andrew/Desktop/LetsDrag?/LetsDrag/Classes/OpponnentCarSummaryViewController.m:143: warning: passing argument 1 of 'performSelector:withObject:' from incompatible pointer type
+/Users/andrew/Desktop/LetsDrag?/LetsDrag/Classes/OpponnentCarSummaryViewController.m: In function '-[OpponnentCarSummaryViewController shouldDragClicked:]':
+/Users/andrew/Desktop/LetsDrag?/LetsDrag/Classes/OpponnentCarSummaryViewController.m:174: warning: no '-myNavigationController' method found
+/Users/andrew/Desktop/LetsDrag?/LetsDrag/Classes/OpponnentCarSummaryViewController.m: In function '-[OpponnentCarSummaryViewController dealloc]':
+/Users/andrew/Desktop/LetsDrag?/LetsDrag/Classes/OpponnentCarSummaryViewController.m:188: warning: 'OpponnentCarSummaryViewController' may not respond to '-cancelDownloading'
+/Users/andrew/Desktop/LetsDrag?/LetsDrag/Classes/OpponnentCarSummaryViewController.m: In function '-[OpponnentCarSummaryViewController downloadImage]':
+/Users/andrew/Desktop/LetsDrag?/LetsDrag/Classes/OpponnentCarSummaryViewController.m:227: warning: 'LetsDragAppDelegate' may not respond to '-getNextTempFileName'
+/Users/andrew/Desktop/LetsDrag?/LetsDrag/Classes/OpponnentCarSummaryViewController.m:234: warning: 'return' with a value, in function returning void
+/Users/andrew/Desktop/LetsDrag?/LetsDrag/Classes/OpponnentCarSummaryViewController.m:244: warning: 'return' with a value, in function returning void
+/Users/andrew/Desktop/LetsDrag?/LetsDrag/Classes/OpponnentCarSummaryViewController.m: In function '-[OpponnentCarSummaryViewController connection:didFailWithError:]':
+/Users/andrew/Desktop/LetsDrag?/LetsDrag/Classes/OpponnentCarSummaryViewController.m:302: warning: 'OpponnentCarSummaryViewController' may not respond to '-removeDataFile'
+/Users/andrew/Desktop/LetsDrag?/LetsDrag/Classes/OpponnentCarSummaryViewController.m: In function '-[OpponnentCarSummaryViewController connectionDidFinishLoading:]':
+/Users/andrew/Desktop/LetsDrag?/LetsDrag/Classes/OpponnentCarSummaryViewController.m:326: warning: 'LetsDragAppDelegate' may not respond to '-moveTempFileToCarImage:usingCarMake:carModel:year:'
+/Users/andrew/Desktop/LetsDrag?/LetsDrag/Classes/OpponnentCarSummaryViewController.m: In function '-[OpponnentCarSummaryViewController cancelDownloading]':
+/Users/andrew/Desktop/LetsDrag?/LetsDrag/Classes/OpponnentCarSummaryViewController.m:346: warning: 'OpponnentCarSummaryViewController' may not respond to '-removeDataFile'
